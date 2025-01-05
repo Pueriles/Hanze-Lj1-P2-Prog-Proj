@@ -1,0 +1,22 @@
+# Uitleg van Begin.py
+
+Het bestand begin.py bevat de klasse Program, die voldoet aan de eisen van de opdracht:
+
+Functionaliteiten
+1. Constructor (__init__)
+    * De constructor initialiseert een optionele lijst met data.
+    * Als geen data wordt meegegeven, gebruikt de constructor een lege lijst.
+
+Voorbeeld:
+prog = Program([1, 2, 3])  # Initialisatie met data
+prog = Program()           # Initialisatie zonder data
+
+2. Stringrepresentatie (__repr__)
+    *De methode __repr__ geeft een duidelijke tekstweergave van het object, bijvoorbeeld:
+    Program([1, 2, 3])
+
+3. Methode randomize
+    * Deze methode schudt de lijst met data door elkaar met behulp van random.shuffle.
+    * Als de lijst leeg is, wordt een melding getoond:
+    "De lijst is leeg. Voeg eerst data toe."
+
